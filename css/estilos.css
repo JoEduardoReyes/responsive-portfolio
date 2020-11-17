@@ -1,0 +1,291 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: -0.2px;
+  text-transform: capitalize;
+  color: white;
+  margin: 0px;
+}
+
+h1 strong {
+  color: #026fff;
+  text-decoration: none;
+}
+
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.link {
+  margin: 0px;
+}
+
+ol,
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.header {
+  background-color: #1b2127;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  -webkit-box-shadow: 0px 10px 10px -6px #000000;
+  box-shadow: 0px 10px 10px -6px #000000;
+  position: relative;
+  z-index: 1;
+}
+
+.menu {
+  height: inherit;
+  font-weight: bold;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.hero {
+  height: 300px;
+  /* background-image: url("../images/hero.jpg");
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position-x: right; */
+  background-color: #1d2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero h1 {
+  padding-left: 10px;
+}
+
+.hero-image {
+  object-fit: cover;
+}
+
+.portfolio {
+  background: #fafafa;
+  padding: 20px;
+}
+
+.project {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1800px;
+}
+
+h3 .project-details {
+  width: 500px;
+}
+
+.project-imageContainer {
+  width: 500px;
+}
+
+.project-tittle {
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.project-course,
+.project-date,
+.project-url {
+  margin: 10px 0px;
+}
+
+.project-description {
+  font-size: 20px;
+}
+
+.project strong {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.project a {
+  text-decoration: none;
+  color: #026fff;
+}
+
+figure {
+  margin: 0px;
+}
+
+.event-list-tittle {
+  padding: 20px;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event {
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #026fff;
+}
+
+.event img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-detail {
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.event-description {
+  text-align: left;
+}
+
+.event-url {
+  border: 1px solid #026fff;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #026fff;
+  border-radius: 5px;
+}
+
+.contact {
+  background-color: #026fff;
+  color: white;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-email input {
+  border-color: rgb(236, 236, 236);
+  border-style: solid;
+  padding: 5px 20px 5px 35px;
+  background-image: url("../images/envelope.svg");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 10px;
+  border-radius: 5px;
+}
+
+.form-email button {
+  display: block;
+  background: transparent;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.form-email h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0px 10px;
+}
+
+/* .social-link.twitter {
+  background-image: url("../images/twitter.svg");
+} */
+
+.fab.fa-twitter,
+.fab.fa-facebook-square,
+.fab.fa-github,
+.fab.fa-instagram {
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.footer {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img {
+  vertical-align: middle;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
