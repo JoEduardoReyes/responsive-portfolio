@@ -304,6 +304,9 @@ figure {
 /* Media Queries */
 
 @media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 1em;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -374,7 +377,7 @@ figure {
   .event-detail {
     margin: -2em 0.5em 0.5em;
     width: auto;
-    padding: 10px;
+    padding: 1em;
   }
   .event-list {
     width: 100%;
@@ -384,6 +387,24 @@ figure {
   }
   .event-detail h3 {
     margin: 5px 0;
+  }
+  .contact {
+    height: auto;
+    padding: 1.5em 0;
+    text-align: center;
+    display: block;
+  }
+  .form-email button {
+    margin: 1em auto;
+  }
+  .form-email h3 {
+    margin-top: 0;
+  }
+  .footer {
+    display: block;
+    text-align: center;
+    border: 1px solid transparent;
+    padding-bottom: 1em;
   }
 }
 
