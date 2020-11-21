@@ -301,6 +301,11 @@ figure {
   text-decoration: none;
 }
 
+.html-video {
+  width: 100%;
+  height: auto;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1024px) {
