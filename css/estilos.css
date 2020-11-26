@@ -374,7 +374,11 @@ figure {
 
 /* Media Queries */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
+  .event-list-tittle {
+    margin-left: 0;
+  }
+
   .container {
     padding: 0 1em;
   }
@@ -397,10 +401,19 @@ figure {
     font-size: 2em;
     z-index: 2;
   }
+  .portfolio {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  h2 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+  }
+
   .burger-button {
+    z-index: 6;
     display: block;
   }
   .header {
@@ -439,7 +452,7 @@ figure {
   }
 
   .project-details {
-    font-size: 16px;
+    font-size: 18px;
   }
   .project-tittle {
     font-size: 1.5em;
@@ -487,7 +500,7 @@ figure {
 
 @media screen and (max-width: 480px) {
   .project-details {
-    font-size: 12px;
+    font-size: 14px;
   }
   .event-detail {
     margin: -2em 0.5em 0.5em;
@@ -530,4 +543,10 @@ figure {
 }
 
 @media screen and (max-width: 320px) {
+  .fab.fa-twitter,
+  .fab.fa-facebook-square,
+  .fab.fa-github,
+  .fab.fa-instagram {
+    font-size: 40px;
+  }
 }
